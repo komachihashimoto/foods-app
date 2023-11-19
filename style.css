@@ -1,0 +1,41 @@
+body {
+  overflow: hidden;
+}
+
+.container {
+  background-color: #191919;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 3em;
+  color: #fff;
+  margin: 20px;
+}
+
+.text-box {
+  width: 80vw;
+  height: 50vh;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 20px;
+  color: #fff;
+  font-size: 3em;
+  line-height: 2em;
+}
+
+.select-btn {
+  margin: 20px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  background: rgba(0,0,0,0);
+  font-size: 1.5em;
+  color: #fff;
+  padding: 20px 40px;
+}
